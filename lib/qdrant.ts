@@ -1,5 +1,8 @@
 import { QdrantClient } from "@qdrant/js-client-rest";
 
+// Define the number once and import it in both places
+export const SCORE_THRESHOLD = 0.3;
+
 // The name of our "table" in Qdrant
 export const COLLECTION = "bible";
 
